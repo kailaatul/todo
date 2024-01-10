@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* * * * * * body * ** * *  */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    color: rgb(10, 13, 17);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(220, 255, 175);
+    align-items: center;
+    justify-content: center;
+    /* border: 5px solid black; */
+}
+
+/* signin page */
+
+.signin-page {
+    display: flex;
+    /* background-color: #87c108;     */
+    box-shadow: 0px 0px 10px gray;
+    height: 550px;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    /* position: relative; */
+    border: 2px solid rgb(109, 90, 236);
+}
+
+/* skip */
+
+.skip-section {
+    display: flex;
+    align-items: center;
+    /* margin-left: 250px !important; */
+    margin: 10px 0 0 230px;
+    gap: 5px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+
+
+.skip-signin {
+    display: flex;
+    /* align-items: center; */
+    /* position: absolute; */
+    /* width: 100%; */
+    /* right: 0; */
+}
+
+.skip-section img {
+    height: 12px;
+}
+
+/*  * * * * * slider * * * * * *  */
+
+.slider-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: absolute; */
+    justify-content: center;
+    height: 250px;
+    width: 100%;
+    /* border: 1px solid rgb(36, 116, 255) */
+}
+
+.slider {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid rgb(6, 144, 13) */
+}
+
+.slide {
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    /* margin: 50px 0 30px 0; */
+    height: 200px;
+    border-radius: 50px;
+    /* border: 1px solid red; */
+}
+
+/* slider icon */
+
+.slide-dot {
+    position: absolute;
+    display: flex;
+}
+
+.slide-dot img {
+    width: 20px;
+    background-color: brown;
+    padding: 10px;
+    margin: 10px 100px;
+    cursor: pointer;
+
+}
+
+
+/* description */
+.description {
+    text-align: center;
+    font-size: 12px;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+}
+
+
+/*  * * * * * sign in button * * * * * *  */
+
+.signinbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+    gap: 10px;
+    /* border: 2px solid red; */
+}
+
+.signinwithemail {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    /* background-color: rgb(6, 182, 182); */
+    /* background-color: rgb(190, 89, 89); */
+    background-color: rgb(19, 27, 33);
+    color: white;
+    width: 200px;
+    padding: 7px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signinwithemail img {
+    height: 20px;
+    padding-right: 10px;
+}
+
+.signinwithgoogle {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    /* background-color: rgb(6, 182, 182); */
+    background-color: rgb(34, 33, 26);
+    width: 200px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.signinwithgoogle img {
+    height: 20px;
+    padding-right: 10px;
+}
+
+/*  * * * * * other * * * * *  */
+
+.other {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    /* border: 1px solid rebeccapurple; */
+}
