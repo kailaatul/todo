@@ -11,6 +11,7 @@ body {
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    background-image: url(/img/bg1.jpg);
     box-sizing: border-box;
     color: rgb(10, 13, 17);
 }
@@ -19,7 +20,8 @@ body {
     display: flex;
     width: 100%;
     height: 100%;
-    background-color: rgb(220, 255, 175);
+    /* background-color: rgb(220, 255, 175); */
+
     align-items: center;
     justify-content: center;
     /* border: 5px solid black; */
@@ -30,14 +32,16 @@ body {
 .signin-page {
     display: flex;
     /* background-color: #87c108;     */
-    box-shadow: 0px 0px 10px gray;
+    /* background-color: rgb(220, 255, 175); */
+    background-image: url(/img/bg.jpg);
+    /* box-shadow: 0px 0px 10px gray; */
     height: 550px;
     width: 300px;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
     /* position: relative; */
-    border: 2px solid rgb(109, 90, 236);
+    /* border: 2px solid rgb(109, 90, 236); */
 }
 
 /* skip */
